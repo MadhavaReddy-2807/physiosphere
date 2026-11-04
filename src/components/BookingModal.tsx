@@ -143,7 +143,7 @@ export default function BookingModal({
       role="dialog"
       aria-modal="true"
       aria-labelledby="booking-modal-title"
-      className="fixed inset-0 z-50 flex flex-col sm:flex-row sm:items-center sm:justify-center bg-black/60 backdrop-blur-2xs overflow-hidden"
+      className="fixed inset-0 z-[60] flex flex-col sm:flex-row sm:items-center sm:justify-center bg-black/60 backdrop-blur-2xs overflow-hidden"
       onClick={resetAndClose}
     >
       <div

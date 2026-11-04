@@ -28,7 +28,7 @@ export default function FloatingBookNow({ onOpenBooking }: FloatingBookNowProps)
       {/* Mobile Sticky Bottom Bar (Fixed, Respects Safe Area, High Conversion) */}
       <nav
         aria-label="Mobile booking action bar"
-        className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-blue-200/80 shadow-2xl px-3 pt-2 pb-[max(0.625rem,env(safe-area-inset-bottom))] flex items-center justify-between gap-2"
+        className="md:hidden fixed bottom-0 left-0 right-0 z-30 bg-white/95 backdrop-blur-md border-t border-blue-200/80 shadow-2xl px-3 pt-2 pb-[max(0.625rem,env(safe-area-inset-bottom))] flex items-center justify-between gap-2"
       >
         <a
           href={`tel:${BRAND_INFO.phonePrimary}`}

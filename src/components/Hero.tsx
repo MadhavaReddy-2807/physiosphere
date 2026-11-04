@@ -80,18 +80,18 @@ export default function Hero({ onOpenBooking }: HeroProps) {
 
             {/* Compact Trust Stats */}
             <div className="pt-3 border-t border-blue-100/80">
-              <div className="grid grid-cols-3 gap-2 sm:gap-3">
-                <div className="bg-white p-2.5 sm:p-3 rounded-xl border border-blue-100 text-left highlight-card">
-                  <div className="text-base sm:text-lg font-bold text-[#0a2540] leading-tight">Team of 30+</div>
-                  <div className="text-[11px] text-slate-500 font-medium">Physiotherapists</div>
+              <div className="grid grid-cols-3 gap-1.5 sm:gap-3">
+                <div className="bg-white p-2 sm:p-3 rounded-xl border border-blue-100 text-left highlight-card">
+                  <div className="text-sm sm:text-base lg:text-lg font-bold text-[#0a2540] leading-tight">Team of 30+</div>
+                  <div className="text-[10px] sm:text-[11px] text-slate-500 font-medium truncate">Physiotherapists</div>
                 </div>
-                <div className="bg-white p-2.5 sm:p-3 rounded-xl border border-blue-100 text-left highlight-card">
-                  <div className="text-base sm:text-lg font-bold text-[#0a2540] leading-tight">4+ Years</div>
-                  <div className="text-[11px] text-slate-500 font-medium">Clinical Exp.</div>
+                <div className="bg-white p-2 sm:p-3 rounded-xl border border-blue-100 text-left highlight-card">
+                  <div className="text-sm sm:text-base lg:text-lg font-bold text-[#0a2540] leading-tight">4+ Years</div>
+                  <div className="text-[10px] sm:text-[11px] text-slate-500 font-medium truncate">Clinical Exp.</div>
                 </div>
-                <div className="bg-white p-2.5 sm:p-3 rounded-xl border border-blue-100 text-left highlight-card">
-                  <div className="text-base sm:text-lg font-bold text-[#0a2540] leading-tight">600+</div>
-                  <div className="text-[11px] text-slate-500 font-medium">Patients Treated</div>
+                <div className="bg-white p-2 sm:p-3 rounded-xl border border-blue-100 text-left highlight-card">
+                  <div className="text-sm sm:text-base lg:text-lg font-bold text-[#0a2540] leading-tight">600+</div>
+                  <div className="text-[10px] sm:text-[11px] text-slate-500 font-medium truncate">Patients Treated</div>
                 </div>
               </div>
             </div>

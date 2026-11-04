@@ -65,7 +65,7 @@ export default function Conditions({ onSelectCondition }: ConditionsProps) {
         );
 
   return (
-    <section id="conditions" className="py-8 sm:py-14 bg-white border-b border-blue-100">
+    <section id="conditions" className="py-8 sm:py-14 bg-white border-b border-blue-100 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
